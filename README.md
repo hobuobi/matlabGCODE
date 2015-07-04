@@ -2,9 +2,9 @@
 
 Contains a growing collection of useful functions for generating GCODE in Matlab without using the typical format for outputting code with variables:
 
-'''sh
+```sh
 $ disp(['G1 X',num2str(x_val),' Y',num2str(y_val)]);
-'''
+```
 
 ...which can be very, very tedious. 
 
@@ -16,9 +16,9 @@ In this guide, I will be referring to the functions as if they were operating in
 
 To use, just include the path to the folder that contains all of these functions at the beginning of the Matlab script you are using to generate your GCODE. You can do so as shown below:
 
-'''sh
+```sh
 addpath /home/username/mytools
-'''
+```
 
 ### straightGC(x_val, y_val)
 
